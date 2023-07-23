@@ -1,0 +1,46 @@
+body{
+    box-sizing: border-box;
+    background: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box .img2{
+    width: 289px;
+    height: 362px;
+}
+
+.box .img1{
+    width: 203px;
+    height: 363;
+}
+
+.ControlPanel{
+    margin-top: 10px;
+    background: gray;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+.ControlPanel button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    border: none;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkgreen;
+}
